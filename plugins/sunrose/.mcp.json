@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sunrose": {
+      "type": "http",
+      "url": "https://sunrose.dev/mcp"
+    }
+  }
+}
