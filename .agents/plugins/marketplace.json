@@ -1,0 +1,12 @@
+{
+  "name": "sunrose",
+  "interface": { "displayName": "Sunrose" },
+  "plugins": [
+    {
+      "name": "sunrose",
+      "source": { "source": "local", "path": "./plugins/sunrose" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "sunrose",
+  "version": "0.1.0",
+  "description": "Publish a static site for client review, share a review link, and work through the feedback, from Codex.",
+  "author": { "name": "Sunrose", "url": "https://sunrose.dev" },
+  "homepage": "https://sunrose.dev/docs/mcp",
+  "keywords": ["sunrose", "client-review", "static-site", "feedback", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Sunrose",
+    "shortDescription": "Publish sites, read feedback",
+    "longDescription": "Publish a built static site or a set of designs for client review, create a review link, read the comments reviewers leave on the page, and track each one to done. Works with your Sunrose workspace over OAuth.",
+    "developerName": "Sunrose",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}
