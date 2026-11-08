@@ -16,6 +16,8 @@ API and MCP access need a Sunrose plan that includes them (Personal and above). 
 /plugin install sunrose@sunrose
 ```
 
+The `owner/repo` shorthand clones over SSH. Without a GitHub SSH key, add the marketplace by its web address instead: `/plugin marketplace add https://github.com/coshge/sunrose-plugin.git`.
+
 Then run `/mcp` (or `claude mcp login sunrose`) and sign in. You choose Read only or Read and write on Sunrose's consent screen. The skills are `/sunrose:publish-for-review` and `/sunrose:triage-feedback`.
 
 To try it from a checkout without installing: `claude --plugin-dir ./plugins/sunrose`, then `/reload-plugins` after edits.
@@ -24,7 +26,7 @@ To try it from a checkout without installing: `claude --plugin-dir ./plugins/sun
 
 ```
 codex plugin marketplace add coshge/sunrose-plugin
-codex            # then /plugins, choose Sunrose, and install it
+codex plugin add sunrose@sunrose
 codex mcp login sunrose
 ```
 
