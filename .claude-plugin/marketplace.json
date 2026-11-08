@@ -1,0 +1,14 @@
+{
+  "name": "sunrose",
+  "description": "Sunrose: static site previews for client review.",
+  "owner": { "name": "Sunrose", "url": "https://sunrose.dev" },
+  "plugins": [
+    {
+      "name": "sunrose",
+      "source": "./plugins/sunrose",
+      "description": "Publish a static site for client review, share a review link, and work through the feedback.",
+      "category": "development",
+      "tags": ["client-review", "static-site", "feedback"]
+    }
+  ]
+}

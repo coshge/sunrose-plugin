@@ -1,0 +1,9 @@
+{
+  "name": "sunrose",
+  "displayName": "Sunrose",
+  "version": "0.1.0",
+  "description": "Publish a static site for client review, share a review link, and work through the feedback, from Claude Code.",
+  "author": { "name": "Sunrose", "url": "https://sunrose.dev" },
+  "homepage": "https://sunrose.dev/docs/mcp",
+  "keywords": ["sunrose", "client-review", "static-site", "feedback", "mcp"]
+}
